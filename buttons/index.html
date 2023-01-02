@@ -1,0 +1,90 @@
+<html>
+<head>
+    <h1>BOOK YOUR TOUR</h1>
+</head>
+<body>
+    <h3>Select Details for Tour</h3>
+
+    <fieldset>
+        <legend>Tour Info</legend>
+    <form>
+        <select name="tourtype">
+            <option value="">Select Your Type</option>
+            <option value="5 star">5 Star</option>
+            <option value="4 star">4 Star</option>
+            <option value="3 star">3 Star</option>
+            <option value="Economy">Economy</option>
+        </select>
+
+     <p> Please Select The Facilities You Want: 
+        <br/>
+        <input type="checkbox" name="facilities" value="breakfast" checked>
+     Breakfast
+     <br/>
+     <input type="checkbox" name="facilities" value="Car"> 
+     Car
+     <br/>
+     <input type="checkbox" name="facilities" value="Lunch"> 
+     Lunch
+     <br/>
+     <input type="checkbox" name="facilities" value="Dinner"> 
+     Dinner
+    </p>
+</fieldset>
+<fieldset>
+    <legend>Personal Info</legend>
+    <p>Please select your gender
+    <input type="radio" name="gender" value="male" checked> Male
+    <input type="radio" name="gender" value="female" > Female
+    </p>
+
+    <p>
+        <b>Name</b>
+        <input required name="username" type="text" placeholder="User Name"> 
+        </p>
+        <p>
+            <b>Number</b>
+            <input required name="usernumber" type="number" placeholder="User Number"> 
+            </p>
+            <p>
+                <b>Email</b>
+                <input required name="useremail" type="email" placeholder="User Email"> 
+                </p>
+                <p>
+                    <b>Website</b>
+                    <input required name="userweb" type="url" placeholder="url">
+                    </p>
+                    <p>
+                        <b>CNIC</b>
+                        <input required name="usercnic" type="text" placeholder="4210165889487" maxlength="13"> 
+                        </p>
+                        <p>
+                            <b>Select Your Tour Date</b>
+                            <input required name="tourdate" type="date"> 
+                            </p>
+                            <p>
+                                <b>Any Description You Want</b>
+                                <textarea cols="55" rows="5" 
+                                placeholder="Tell us what you want"> </textarea>
+                                </p>
+                          
+                                <p>
+                                <b>Uploaad Your Picture with Your CNIC</b>
+                                <input type="file"> 
+                                </p>
+</fieldset>
+
+                                <p>
+                                    <input type="submit" value="Submit Information"> 
+                                    </p>
+                                
+                                
+
+    </form>
+    
+
+
+
+
+</body>
+</html>
